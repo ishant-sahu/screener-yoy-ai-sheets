@@ -32,7 +32,7 @@ White if data unavailable
 
 🔑 Requirements
 
-Node.js (v18+ recommended)
+Node.js (v20+ recommended)
 
 Google Sheets API credentials (credentials.json)
 
@@ -70,7 +70,7 @@ Create a Service Account and download credentials.json
 Share your Google Sheet with the service account email
 
 🚀 Usage
-node yoy-to-sheets-latest-transcript-pdflib.js "https://www.screener.in/company/ZAGGLE/#quarters"
+node index.js "https://www.screener.in/company/ZAGGLE/#quarters"
 
 Example Output:
 
